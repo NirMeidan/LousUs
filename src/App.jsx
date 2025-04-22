@@ -20,7 +20,8 @@ export default function LouesUs() {
           </div>
         </div>
       )}
-      ...
+
+      ... // truncated for brevity
     </div>
   );
 }
