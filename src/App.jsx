@@ -20,8 +20,7 @@ export default function LouesUs() {
           </div>
         </div>
       )}
-
-      ... // truncated for brevity
+      <h2 className="text-center text-2xl font-bold mt-8">Lou’s U Fully Deployed!</h2>
     </div>
   );
 }
