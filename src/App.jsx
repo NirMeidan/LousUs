@@ -22,79 +22,125 @@ export default function LouesUs() {
       )}
 
       <section className="bg-white p-6 rounded-xl shadow-xl max-w-4xl mx-auto rotate-1">
-        <div className="mx-auto max-w-md text-center text-sm italic text-gray-500 border-2 border-dashed border-gray-300 p-4 mt-4">
-          <img src="https://files.oaiusercontent.com/file_00000000c8f061f6871323e9677a0522/preview" alt="Louie with Obama and Trump" className="w-full h-auto rounded-lg shadow-md" />
+        <div className="mx-auto w-full text-center text-sm italic text-gray-500 border-2 border-dashed border-gray-300 p-4 mt-4">
+          <img src="src/logo.png" alt="Louie with Obama and Trump" className="w-full h-auto rounded-lg shadow-md" />
         </div>
-        <h2 className="text-3xl font-bold text-blue-700 text-center">about chanellour lou</h2>
-        <p className="text-center">Founded Lou’s U in a backyard Zoom call. Known for her groundbreaking strategy of placing a paw on documents to legally bind students to lifelong tuition.</p>
+        <h2 className="text-3xl font-bold text-blue-700 text-center"><br/><br/>about us<br/><br/></h2>
+        <p className="text-center">This site is absolutely, undeniably very real and most definitely not a scam—it's a fully legitimate, totally trustworthy place that has never, ever even thought about scamming anyone, not even once<br/><br/></p>
       </section>
 
       <section className="bg-purple-100 p-6 rounded-xl shadow-xl max-w-4xl mx-auto rotate-2">
         <div className="w-64 h-64 border-4 border-dashed border-gray-400 rounded-lg shadow-md object-cover mt-4 float-left mr-6">
-          <img src="https://files.oaiusercontent.com/file_00000000c8f061f6871323e9677a0522/preview" alt="Louie with Obama and Trump" className="w-full h-auto rounded-lg shadow-md" />
+          <img src="src/fool.png" alt="Louie with Obama and Trump" className="w-full h-auto rounded-lg shadow-md" />
+          <div className="text-xs">(this fool will take the fall)</div>
         </div>
-        <h2 className="text-3xl font-bold text-purple-800 text-center">degreez we offer</h2>
+        <h2 className="text-3xl font-bold text-purple-800 text-center">staff</h2>
         <ul className="list-disc list-inside text-lg text-purple-900">
-          <li>bachelor of puppetry science</li>
-          <li>master of pawlitical sniffing</li>
-          <li>doctor of lougic & butt sniffing theory</li>
-          <li>mba in fetchonomics</li>
+        	<li>Totally Legit!</li>
+        	<li>Not a scam!</li>
+          <li>Esteemed professors (not at all generated with AI)</li>          
+          <li>I like poo 💩</li>
         </ul>
+        <br/><br/><br/><br/><br/>
       </section>
 
       <section className="bg-yellow-100 p-6 rounded-xl shadow-xl max-w-4xl mx-auto -rotate-2">
-        <div className="mx-auto max-w-md text-center text-sm italic text-yellow-800 border-2 border-dashed border-yellow-400 p-4 mb-4">
-          <img src="https://files.oaiusercontent.com/file_00000000c8f061f6871323e9677a0522/preview" alt="Louie with Obama and Trump" className="w-full h-auto rounded-lg shadow-md" />
+        <div className="mx-auto max-w-md text-center text-sm italic text-yellow-800 p-4 mb-4">
+          <img src="src/Loupons.png" alt="Louie with Obama and Trump" className="w-full h-auto rounded-lg shadow-md" />
         </div>
-        <h2 className="text-3xl font-bold text-yellow-900 text-center">loupons™</h2>
+        <h2 className="text-3xl font-bold text-yellow-900 text-center">loupons™ - menu</h2><br/>
         <ul className="list-disc list-inside text-lg text-yellow-800">
-          <li>10 loupons = mystery sniff</li>
-          <li>20 loupons = honorary diploma printout</li>
-          <li>30 loupons = forged signature with real paw ink</li>
+          <li>You scrach my back - 1 loupon/hr</li>
+          <li>You scratch my belly - 5 loupons/hr</li>
+          <li>You nap with me - 10 loupons/hr</li>
+          <li>I nap with you - 50 loupons/hr</li>
+          <li>I lick your nostril - 55 loupons/lick</li>
         </ul>
         <button onClick={handleClick} className="mt-4 bg-orange-500 text-white px-4 py-2 rounded-full shadow hover:bg-orange-600">
-          forge my paw signature
+          <br/>order now<br/><br/>
         </button>
+        <br/>
+        <br/>
       </section>
-
+<br/>
       <section className="bg-pink-100 p-6 rounded-xl shadow-xl max-w-4xl mx-auto rotate-3">
-        <div className="mx-auto max-w-md text-center text-sm italic text-pink-600 border-2 border-dashed border-pink-300 p-4 mb-4">
-          <img src="https://files.oaiusercontent.com/file_00000000c8f061f6871323e9677a0522/preview" alt="Louie with Obama and Trump" className="w-full h-auto rounded-lg shadow-md" />
-        </div>
         <h2 className="text-3xl font-bold text-pink-700 text-center">what our aLOUmni are saying</h2>
-        <blockquote className="italic mt-4">"the best decisin i made since i ate a shoe." – barc obama</blockquote>
-        <blockquote className="italic mt-2">"totally legit. not a <span className='line-through'>scam</span>. i swear." – donald j. trump</blockquote>
-        <blockquote className="italic mt-2">"what's the deal with these loupons?!" – jerry seinfurld</blockquote>
-        <blockquote className="italic mt-2">"one two three four! lou rocks!" – the ruffmones</blockquote>
+        <blockquote className="italic mt-2">"we have the best poo" – donald j. trump</blockquote>
+		  <blockquote className="italic mt-2">"This school is top-notch... for me to poop on!" – Triumph the Insult Comic Dog</blockquote>
+		  <blockquote className="italic mt-2">"Woof! (Translation: Timmy fell in the well, but I stayed to finish my degree at Loue’s U’s)" – Lassie</blockquote>
+		  
+		  <blockquote className="italic mt-2">"Much wow. Very diploma. So barkademic." – Doge</blockquote>
+		  <blockquote className="italic mt-2">"They teached me real gud. I am smart now. Smort even." – Cheems</blockquote>
+		  <blockquote className="italic mt-2">"I only enrolled for the belly rubs, but I left with purpose." – Boo the Pomeranian</blockquote>
+		  <blockquote className="italic mt-2">"I barked once and got tenure." – Gabe the Dog</blockquote>
+		  <blockquote className="italic mt-2">"Every class ends with a treat. That’s how you know it’s real." – Louie</blockquote>
+
+		  <blockquote className="italic mt-2">"If only I had gone here, I wouldn’t have been caught." – Frank Abagnale Jr.</blockquote>
+		  <blockquote className="italic mt-2">"Their fake it 'til you make it' program is truly elite." – Anna Delvey</blockquote>
+		  <blockquote className="italic mt-2">"Even *I* believe this school is real. And I lied about a *lot* of stuff." – Elizabeth Holmes</blockquote>
+		  <blockquote className="italic mt-2">"Top-tier scamstruction. I’m a proud aLOUmni." – Jordan Belfort</blockquote>
+		  <blockquote className="italic mt-2">"A great place to network, mislead, and maybe learn." – Billy McFarland</blockquote>
+
+		  <blockquote className="italic mt-2">"I infiltrated 43 fake universities, but this one tricked *me*—a true masterpiece." – Kitdoga, Scambaiter Extraordinaire</blockquote>
+
       </section>
 
       <section className="bg-blue-100 p-6 rounded-xl shadow-xl max-w-4xl mx-auto -rotate-1">
         <div className="mx-auto max-w-md text-center text-sm italic text-blue-800 border-2 border-dashed border-blue-300 p-4 mb-4">
-          <img src="https://files.oaiusercontent.com/file_00000000c8f061f6871323e9677a0522/preview" alt="Louie with Obama and Trump" className="w-full h-auto rounded-lg shadow-md" />
+          <img src="src/payments.png" alt="Louie with Obama and Trump" className="w-full h-auto rounded-lg shadow-md" />
         </div>
-        <h2 className="text-3xl font-bold text-blue-800 text-center">tuishun & payments</h2>
-        <p className="text-center">Join for $999, 6 tennis balls, or by barking the anthem under a full moon</p>
-        <p className="text-xs text-center mt-2">Accepted currencies: duck turtles, bonecoin, crayon checks, lubacoin™, and barkbucks</p>
+        <p className="text-center text-5xl text-red-600 font-bold blink">
+		  Join NOW only $18,49.49
+		</p>
+<p className="text-center text-5xl text-red-600 font-bold blink">
+		  Join NOW only $18,49.49
+		</p><p className="text-center text-5xl text-red-600 font-bold blink">
+		  Join NOW only $18,49.49
+		</p>
+        <div className="overflow-hidden whitespace-nowrap w-full bg-yellow-100 py-2">
+		  <p className="marquee text-2xl font-bold text-pink-600">
+		    🐾 Welcome to Lou’s U – All Bark, No Bite – Free Loupons for Enrollment 🐾
+		  </p>
+		</div>
+
+        <p className="text-xs text-center mt-2">or duck turtle equivilent</p>
         <button onClick={handleClick} className="mt-4 bg-blue-600 text-white px-4 py-2 rounded-full shadow hover:bg-blue-700">
           enroll now
+        </button><span> </span>
+        <button onClick={handleClick} className="mt-4 bg-blue-600 text-white px-4 py-2 rounded-full shadow hover:bg-blue-700">
+          enroll now
+        </button> <span> </span>
+        <button onClick={handleClick} className="mt-4 bg-blue-600 text-white px-4 py-2 rounded-full shadow hover:bg-blue-700">
+          enroll later
+        </button><span> </span>
+        <button onClick={handleClick} className="mt-4 bg-blue-600 text-white px-4 py-2 rounded-full shadow hover:bg-blue-700">
+          enroll now
+        </button><span> </span>
+        <button onClick={handleClick} className="mt-4 bg-blue-600 text-white px-4 py-2 rounded-full shadow hover:bg-blue-700">
+          enroll now
+        </button> <span> </span>
+        <button onClick={handleClick} className="mt-4 bg-blue-600 text-white px-4 py-2 rounded-full shadow hover:bg-blue-700">
+          enroll later
         </button>
+        <br/><br/>
       </section>
 
       <section className="bg-white p-6 rounded-xl shadow-xl border-4 border-purple-300 max-w-4xl mx-auto rotate-2">
-        <div className="mx-auto max-w-md text-center text-sm italic text-gray-600 border-2 border-dashed border-gray-300 p-4 mb-4">
-          <img src="https://files.oaiusercontent.com/file_00000000c8f061f6871323e9677a0522/preview" alt="Louie with Obama and Trump" className="w-full h-auto rounded-lg shadow-md" />
-        </div>
         <h2 className="text-4xl font-bold mb-4 text-purple-700 text-center">honorary diploumas</h2>
         <p className="mb-4 text-lg italic text-center">Proof of 100% real, absolutely not a <span className='line-through'>scam</span>.</p>
-        <img src="https://files.oaiusercontent.com/file_00000000564c6230adbfbed9d82aae8b/preview" alt="fake diploma" className="mx-auto w-96 border-4 border-white shadow-md rotate-2" />
+        <div className="flex justify-center gap-4 flex-wrap">
+		  <img src="src/diplouma1.png" alt="fake diploma" className="w-60 border-4 border-white shadow-md rotate-2" />
+		  <img src="src/diplouma2.png" alt="fake diploma" className="w-60 border-4 border-white shadow-md rotate-2" />
+		  <img src="src/diplouma3.png" alt="fake diploma" className="w-60 border-4 border-white shadow-md rotate-2" />
+		</div>
       </section>
 
       <section className="bg-rose-100 p-6 rounded-xl shadow-xl border-4 border-rose-300 max-w-4xl mx-auto rotate-1">
         <div className="grid grid-cols-2 gap-4 mb-4">
-          <img src="https://files.oaiusercontent.com/file_00000000adc861f7974252becdd47a70/preview" alt="Louie TED Talk" className="w-full h-auto rounded-lg shadow-md" />
-          <img src="https://files.oaiusercontent.com/file_0000000091a461f78204e64a257e1fd0/preview" alt="Louie and a suspicious figure" className="w-full h-auto rounded-lg shadow-md" />
+          <img src="src/obama.png" alt="Louie TED Talk" className="w-full h-auto rounded-lg shadow-md" />
+          <img src="src/ramones.png" alt="Louie and a suspicious figure" className="w-full h-auto rounded-lg shadow-md" />
         </div>
-        <h2 className="text-3xl font-bold text-rose-700 mb-2 text-center">aLOUmni Hall of Fame</h2>
+        <h2 className="text-3xl font-bold text-rose-700 mb-2 text-center">Hall of Fame</h2>
         <p className="text-lg italic mb-4 text-center">Recognizing legendary graduates who sniffed, forged, and pawed their way to greatness.</p>
         <ul className="list-disc list-inside text-rose-800 text-left max-w-md mx-auto">
           <li>Dr. Paws Barkowitz – first to graduate with honors in Lougic & <span className='line-through'>scam</span>istry</li>
