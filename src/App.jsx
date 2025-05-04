@@ -21,12 +21,22 @@ export default function LouesUs() {
         </div>
       )}
 
+<div className="overflow-hidden whitespace-nowrap w-full bg-yellow-100 py-2">
+		  <p className="marquee text-2xl font-bold text-pink-600">
+		     💩 יש לבצע חתימה 💩 🐾 חל פדיון 🐾  חל פדיון 🐾  חל פדיון 🐾 💩 אין כפל לופונים 💩
+		  </p>
+		</div>
+
       <section className="bg-white p-6 rounded-xl shadow-xl max-w-4xl mx-auto rotate-1">
         <div className="mx-auto w-full text-center text-sm italic text-gray-500 border-2 border-dashed border-gray-300 p-4 mt-4">
           <img src="src/logo.png" alt="Louie with Obama and Trump" className="w-full h-auto rounded-lg shadow-md" />
         </div>
-        <h2 className="text-3xl font-bold text-blue-700 text-center"><br/><br/>about us<br/><br/></h2>
-        <p className="text-center">This site is absolutely, undeniably very real and most definitely not a scam—it's a fully legitimate, totally trustworthy place that has never, ever even thought about scamming anyone, not even once<br/><br/></p>
+        <h2 className="text-5xl font-bold text-center bg-gradient-to-r from-fuchsia-500 via-lime-400 via-cyan-400 via-amber-500 to-red-600 bg-clip-text text-transparent">
+		  <br /><br />ABOUT US<br /><br />
+		</h2>
+		<img src="src/lou.png" alt="Louie with Obama and Trump" className="w-full h-auto rounded-lg shadow-md" />
+
+        <p className="text-center text-3xl"><br/><br/>This site is absolutely, undeniably very real and most definitely not a scam—it's a fully legitimate, totally trustworthy place that has never, ever even thought about scamming anyone, not even once<br/><br/></p>
       </section>
 
       <section className="bg-purple-100 p-6 rounded-xl shadow-xl max-w-4xl mx-auto rotate-2">
@@ -99,7 +109,7 @@ export default function LouesUs() {
 		</p>
         <div className="overflow-hidden whitespace-nowrap w-full bg-yellow-100 py-2">
 		  <p className="marquee text-2xl font-bold text-pink-600">
-		    🐾 Welcome to Lou’s U – All Bark, No Bite – Free Loupons for Enrollment 🐾
+		    🐾 Welcome to Lou’s U – All Bark, No Bite – Free Loupons for Enrollment 🐾 חל פדיון🐾 חל פדיון🐾 חל פדיון🐾 חל פדיון🐾 חל פדיון🐾 חל פדיון🐾 חל פדיון🐾 חל פדיון🐾 חל פדיון🐾 חל פדיון🐾 חל פדיון🐾 חל פדיון🐾 חל פדיון
 		  </p>
 		</div>
 
@@ -127,7 +137,7 @@ export default function LouesUs() {
 
       <section className="bg-white p-6 rounded-xl shadow-xl border-4 border-purple-300 max-w-4xl mx-auto rotate-2">
         <h2 className="text-4xl font-bold mb-4 text-purple-700 text-center">honorary diploumas</h2>
-        <p className="mb-4 text-lg italic text-center">Proof of 100% real, absolutely not a <span className='line-through'>scam</span>.</p>
+        <p className="mb-4 text-lg italic text-center">Proof of 100% real, absolutely not <span className='line-through'>not</span> a <span className='line-through'>scam</span> for sure!</p>
         <div className="flex justify-center gap-4 flex-wrap">
 		  <img src="src/diplouma1.png" alt="fake diploma" className="w-60 border-4 border-white shadow-md rotate-2" />
 		  <img src="src/diplouma2.png" alt="fake diploma" className="w-60 border-4 border-white shadow-md rotate-2" />
@@ -136,24 +146,20 @@ export default function LouesUs() {
       </section>
 
       <section className="bg-rose-100 p-6 rounded-xl shadow-xl border-4 border-rose-300 max-w-4xl mx-auto rotate-1">
+      <h2 className="text-3xl font-bold text-rose-700 mb-2 text-center">Hall of Fame</h2>
+        <p className="text-lg italic mb-4 text-center">Recognizing legendary graduates who sniffed, forged, and pawed their way to greatness.</p>
         <div className="grid grid-cols-2 gap-4 mb-4">
           <img src="src/obama.png" alt="Louie TED Talk" className="w-full h-auto rounded-lg shadow-md" />
           <img src="src/ramones.png" alt="Louie and a suspicious figure" className="w-full h-auto rounded-lg shadow-md" />
+          <img src="src/dylan.png" alt="Louie and a suspicious figure" className="w-full h-auto rounded-lg shadow-md" />
         </div>
-        <h2 className="text-3xl font-bold text-rose-700 mb-2 text-center">Hall of Fame</h2>
-        <p className="text-lg italic mb-4 text-center">Recognizing legendary graduates who sniffed, forged, and pawed their way to greatness.</p>
-        <ul className="list-disc list-inside text-rose-800 text-left max-w-md mx-auto">
-          <li>Dr. Paws Barkowitz – first to graduate with honors in Lougic & <span className='line-through'>scam</span>istry</li>
-          <li>Barc Obama – founder of LouCare (student vet program)</li>
-          <li>Wikileash – exposed the hidden treat tunnels beneath campus</li>
-          <li>Duck Turtlestein – invented Loupons™, never paid tuition</li>
-          <li>Louie herself – graduated every year since 2019</li>
-        </ul>
+        
       </section>
 
       <footer className="text-center text-sm text-gray-800 mt-12 bg-white p-4 rounded-xl border-t-4 border-red-400 max-w-5xl mx-auto font-mono">
-        <p className="italic">&copy; 2025 lou's u. all bark no bite.</p>
-        <p className="italic text-red-700 mt-2 text-base">To our beautiful Leilei, happy birthday, we love you!</p>
+        <p className="italic">&copy; 2025 lou's u's. all bark no bite.</p>
+        <p className="italic">louie best dog&trade;</p>
+        <p className="italic text-red-700 mt-2 text-base">❤️ To our beautiful LeiLei, happy birthday, we <b>love you!</b> ❤️</p>
       </footer>
     </div>
   );
