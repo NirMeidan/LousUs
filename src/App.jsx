@@ -29,19 +29,19 @@ export default function LouesUs() {
 
       <section className="bg-white p-6 rounded-xl shadow-xl max-w-4xl mx-auto rotate-1">
         <div className="mx-auto w-full text-center text-sm italic text-gray-500 border-2 border-dashed border-gray-300 p-4 mt-4">
-          <img src="src/logo.png" alt="Louie with Obama and Trump" className="w-full h-auto rounded-lg shadow-md" />
+          <img src="/logo.png" alt="Louie with Obama and Trump" className="w-full h-auto rounded-lg shadow-md" />
         </div>
         <h2 className="text-5xl font-bold text-center bg-gradient-to-r from-fuchsia-500 via-lime-400 via-cyan-400 via-amber-500 to-red-600 bg-clip-text text-transparent">
 		  <br /><br />ABOUT US<br /><br />
 		</h2>
-		<img src="src/lou.png" alt="Louie with Obama and Trump" className="w-full h-auto rounded-lg shadow-md" />
+		<img src="/lou.png" alt="Louie with Obama and Trump" className="w-full h-auto rounded-lg shadow-md" />
 
         <p className="text-center text-3xl"><br/><br/>This site is absolutely, undeniably very real and most definitely not a scam—it's a fully legitimate, totally trustworthy place that has never, ever even thought about scamming anyone, not even once<br/><br/></p>
       </section>
 
       <section className="bg-purple-100 p-6 rounded-xl shadow-xl max-w-4xl mx-auto rotate-2">
         <div className="w-64 h-64 border-4 border-dashed border-gray-400 rounded-lg shadow-md object-cover mt-4 float-left mr-6">
-          <img src="src/fool.png" alt="Louie with Obama and Trump" className="w-full h-auto rounded-lg shadow-md" />
+          <img src="/fool.png" alt="Louie with Obama and Trump" className="w-full h-auto rounded-lg shadow-md" />
           <div className="text-xs">(this fool will take the fall)</div>
         </div>
         <h2 className="text-3xl font-bold text-purple-800 text-center">staff</h2>
@@ -56,7 +56,7 @@ export default function LouesUs() {
 
       <section className="bg-yellow-100 p-6 rounded-xl shadow-xl max-w-4xl mx-auto -rotate-2">
         <div className="mx-auto max-w-md text-center text-sm italic text-yellow-800 p-4 mb-4">
-          <img src="src/Loupons.png" alt="Louie with Obama and Trump" className="w-full h-auto rounded-lg shadow-md" />
+          <img src="/Loupons.png" alt="Louie with Obama and Trump" className="w-full h-auto rounded-lg shadow-md" />
         </div>
         <h2 className="text-3xl font-bold text-yellow-900 text-center">loupons™ - menu</h2><br/>
         <ul className="list-disc list-inside text-lg text-yellow-800">
@@ -97,7 +97,7 @@ export default function LouesUs() {
 
       <section className="bg-blue-100 p-6 rounded-xl shadow-xl max-w-4xl mx-auto -rotate-1">
         <div className="mx-auto max-w-md text-center text-sm italic text-blue-800 border-2 border-dashed border-blue-300 p-4 mb-4">
-          <img src="src/payments.png" alt="Louie with Obama and Trump" className="w-full h-auto rounded-lg shadow-md" />
+          <img src="/payments.png" alt="Louie with Obama and Trump" className="w-full h-auto rounded-lg shadow-md" />
         </div>
         <p className="text-center text-5xl text-red-600 font-bold blink">
 		  Join NOW only $18,49.49
@@ -139,9 +139,9 @@ export default function LouesUs() {
         <h2 className="text-4xl font-bold mb-4 text-purple-700 text-center">honorary diploumas</h2>
         <p className="mb-4 text-lg italic text-center">Proof of 100% real, absolutely not <span className='line-through'>not</span> a <span className='line-through'>scam</span> for sure!</p>
         <div className="flex justify-center gap-4 flex-wrap">
-		  <img src="src/diplouma1.png" alt="fake diploma" className="w-60 border-4 border-white shadow-md rotate-2" />
-		  <img src="src/diplouma2.png" alt="fake diploma" className="w-60 border-4 border-white shadow-md rotate-2" />
-		  <img src="src/diplouma3.png" alt="fake diploma" className="w-60 border-4 border-white shadow-md rotate-2" />
+		  <img src="/diplouma1.png" alt="fake diploma" className="w-60 border-4 border-white shadow-md rotate-2" />
+		  <img src="/diplouma2.png" alt="fake diploma" className="w-60 border-4 border-white shadow-md rotate-2" />
+		  <img src="/diplouma3.png" alt="fake diploma" className="w-60 border-4 border-white shadow-md rotate-2" />
 		</div>
       </section>
 
@@ -149,9 +149,9 @@ export default function LouesUs() {
       <h2 className="text-3xl font-bold text-rose-700 mb-2 text-center">Hall of Fame</h2>
         <p className="text-lg italic mb-4 text-center">Recognizing legendary graduates who sniffed, forged, and pawed their way to greatness.</p>
         <div className="grid grid-cols-2 gap-4 mb-4">
-          <img src="src/obama.png" alt="Louie TED Talk" className="w-full h-auto rounded-lg shadow-md" />
-          <img src="src/ramones.png" alt="Louie and a suspicious figure" className="w-full h-auto rounded-lg shadow-md" />
-          <img src="src/dylan.png" alt="Louie and a suspicious figure" className="w-full h-auto rounded-lg shadow-md" />
+          <img src="/obama.png" alt="Louie TED Talk" className="w-full h-auto rounded-lg shadow-md" />
+          <img src="/ramones.png" alt="Louie and a suspicious figure" className="w-full h-auto rounded-lg shadow-md" />
+          <img src="/dylan.png" alt="Louie and a suspicious figure" className="w-full h-auto rounded-lg shadow-md" />
         </div>
         
       </section>
